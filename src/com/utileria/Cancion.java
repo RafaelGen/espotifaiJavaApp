@@ -8,6 +8,12 @@ public class Cancion {
     private int num_cancion;
     private String nombre;
     private String artista;
+    
+   /* public Cancion(String nombre, String artista){
+        this.nombre = nombre;
+        this.artista = artista;
+    }*/
+    public Cancion(){}
 
     public int getNum_cancion() {
         return num_cancion;
